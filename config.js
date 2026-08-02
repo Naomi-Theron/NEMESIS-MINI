@@ -5,7 +5,7 @@ if (fs.existsSync('.env')) {
 }
 module.exports = {
     SESSION_ID: process.env.SESSION_ID || "NEMESIS MD",
-    MONGODB_URI: process.env.MONGODB_URI || 'YOUR MONGODB LINK',
+    MONGODB_URI: process.env.MONGODB_URI || 'mongodb+srv://Ridzcoder:<Ridzlian>@nemesis.mlzjmlc.mongodb.net/?appName=Nemesis',
     PREFIX: process.env.PREFIX || '.',
         OWNER_NUMBER: process.env.OWNER_NUMBER || '+237678687593',
     BOT_NAME: "NEMESIS MD MINI",
