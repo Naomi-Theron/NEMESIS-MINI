@@ -1,4 +1,4 @@
-const { cmd } = require("../arslan");
+const { cmd } = require("../ridzcoder");
 const moment = require("moment");
 const { fakevCard } = require('../lib/fakevCard');
 
