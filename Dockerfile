@@ -1,27 +1,38 @@
-# Use an official lightweight Node.js image
-FROM node:18-alpine
+# Stage 1: Build the Application
+# We use node:18 as the base for building and installing dependencies.
+FROM node:18 AS build
 
-# Set production environment
-ENV NODE_ENV=production
+# Set the working directory inside the container
+WORKDIR /usr/src/app
 
-# Create app directory and set ownership to node user
-WORKDIR /app
-RUN chown node:node /app
+# Copy package.json and package-lock.json first to leverage Docker caching.
+# If these files don't change, subsequent builds can skip 'npm install'.
+COPY package*.json ./
 
-# Copy package files first (for better caching)
-COPY --chown=node:node package*.json ./
-
-# Install dependencies (only production if needed)
-RUN npm ci --only=production && npm cache clean --force
+# Install dependencies
+RUN npm install
 
 # Copy the rest of the application source code
-COPY --chown=node:node . .
+COPY . .
 
-# Switch to non‑root user
+# Stage 2: Create the Final Production Image
+# We use node:18 as the runtime image with all the necessary tools.
+FROM node:18
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy the node_modules and built application files from the 'build' stage
+COPY --from=build /usr/src/app/node_modules ./node_modules
+COPY --from=build /usr/src/app/package*.json ./
+COPY --from=build /usr/src/app .
+
+# Expose the port your app runs on
+ENV PORT=8080
+EXPOSE $PORT
+
+# Run the application using the non-root user (recommended for security)
 USER node
 
-# Expose the port (change to your app's port)
-EXPOSE 3000
-
-# Start the application
-CMD ["npm", "start"]
+# Define the command to start your application
+CMD [ "node", "index.js" ]
