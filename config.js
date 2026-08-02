@@ -30,7 +30,7 @@ module.exports = {
     GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/Jpf5TU6nrwlFcQnW86bR7f?s=cl&p=a&mlu=4&amv=3',
     ANTI_CALL: process.env.ANTI_CALL || 'false',
     REJECT_MSG: process.env.REJECT_MSG || '*CALL LATER PLEASE ☺️🌹*',
-    IMAGE_PATH: 'https://files.catbox.moe/prkkzj.png',
+    IMAGE_PATH: 'https://files.catbox.moe/sbgnhh.png',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306',
     TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '7214172448:AAHGqSgaw-zGVPZWvl8msDOVDhln-9kExas',
     TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || '+237678687593'
