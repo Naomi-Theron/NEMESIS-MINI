@@ -1,4 +1,4 @@
-const { cmd } = require("../arslan");
+const { cmd } = require("../ridzcoder");
 const fetch = require("node-fetch");
 const yts = require("yt-search");
 const axios = require("axios");
