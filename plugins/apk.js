@@ -11,7 +11,7 @@ cmd({
   filename: __filename
 }, async (conn, mek, m, { from, reply, q }) => {
   try {
-    if (!q) return reply("*AP NE KOI APK DOWNLOAD KARNI HAI 🤔*\n*TO AP ESE LIKHO ☺️*\n\n*APK ❮APK NAME❯*\n\n*JAB AP ESE LIKHO GE 🤗 TO APKI APK DOWNLOAD KAR KE 😃 YAHA PER BHEJNDE JAYE GE 😍🌹*");
+    if (!q) return reply("*DO YOU WANT TO DOWNLOAD ANY APK *\n*THEN WRITE IT LIKE THIS ☺️*\n*.apk ❮APK NAME❯*");
 
     const apiUrl = `http://ws75.aptoide.com/api/7/apps/search/query=${encodeURIComponent(q)}/limit=1`;
     const { data } = await axios.get(apiUrl);
@@ -23,14 +23,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2);
 
-    let caption = `*╭━━━〔 👑 APK INFO 👑 〕━━━┈⊷*
-*┃ 👑 NAME: ${app.name.toUpperCase()}*
-*┃ 👑 SIZE :❯ ${appSize} MB*
-*┃ 👑 PACK :❯ ${app.package.toUpperCase()}*
-*┃ 👑 VER :❯ ${app.file.vername}*
-*╰━━━━━━━━━━━━━━━┈⊷*
+    let caption = `*╭──⧼♛ APK INFO NEMESIS MINI ♛⧽──≽
+│┃ ♛ NAME: ${app.name.toUpperCase()}*
+│┃ ♛ SIZE :❯ ${appSize} MB*
+│┃ ♛ PACK :❯ ${app.package.toUpperCase()}*
+│┃ ♛ VER :❯ ${app.file.vername}*
+╰━━━━━━━━━━━━━━━┈⊷*
 
-*👑 BY :❯ ARSLAN-MD 👑*`;
+* ʀɪᴅᴢ ᴄᴏᴅᴇʀ x ᴋᴇᴠɪɴ ᴛᴇᴄʜ x ᴛʜᴇʀᴏɴ *`;
 
     await conn.sendMessage(from, { image: { url: app.icon }, caption }, { quoted: mek });
 
