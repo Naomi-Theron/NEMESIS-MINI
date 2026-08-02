@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { cmd } = require('../arslan');
+const { cmd } = require("../ridzcoder");
 const { fakevCard } = require('../lib/fakevCard');
 
 cmd({
