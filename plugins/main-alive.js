@@ -1,4 +1,4 @@
-const { cmd, commands } = require('../arslan');
+const { cmd, commands } = require("../ridzcoder");
 const os = require("os");
 const { runtime } = require('../lib/functions');
 const config = require('../config');
