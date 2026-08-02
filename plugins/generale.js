@@ -29,12 +29,13 @@ async(conn, mek, m, { from, reply, myquoted }) => {
 
         // 3. Message Final Stylé
         const pingMsg = `
-*👑 ARSLAN-MD UPTIME 👑* ⚡
 
-* UPTIME :❯  ${latency}*
-
-*👑 RAM :❯ ${usedMem}MB / ${totalMem}MB
-
+╭──⧼♛ NEMESIS MINI UPTIME* ♛⧽──≽
+│┃ ♛
+│┃ ♛ * UPTIME :❯  ${latency}*
+│┃ ♛
+│┃ ♛ *👑 RAM :❯ ${usedMem}MB / ${totalMem}MB
+╰────Rɪᴅᴢ Cᴏᴅᴇʀ❦─────≽
 `;
 
         // 4. Édition du message (Effet visuel)
@@ -68,7 +69,7 @@ async(conn, mek, m, { from, myquoted }) => {
 
     await conn.sendMessage(from, {
         contacts: {
-            displayName: 'ARSLAN-MD',
+            displayName: 'Ridz Coder',
             contacts: [{ vcard }]
         }
     }, { quoted: myquoted });
