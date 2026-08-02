@@ -24,35 +24,35 @@ cmd({
 
         let menuText = "";
         for (const cat in grouped) {
-            menuText += `\n🧚‍♀️ *${cat.toUpperCase()}*\n`;
-            menuText += grouped[cat].map(c => `💫 ${c}`).join("\n") + "\n";
+            menuText += `\n╭──⧼♛ *${cat.toUpperCase()}* ♛⧽──≽\n`;
+            menuText += grouped[cat].map(c => `│┃ ♛ ${c}`).join("\n") + "\n";
         }
 
         const time = moment().tz("Africa/Kampala").format("HH:mm:ss");
         const date = moment().tz("Africa/Kampala").format("dddd, MMMM Do YYYY");
 
         const caption = `
-╭━━━《 *ᴀʀꜱʟᴀɴ-ᴍᴅ* 》━━━┈⊷
-┃ ✦╭─────────────┈⊷
-┃ ✦│▸ Total Commands : *${totalCommands}*
-┃ ✦│▸ Time           : ${time}
-┃ ✦│▸ Date           : ${date}
-┃ ✦│▸ Platform       : arslanmd.xo.je
-┃ ✦╰─────────────┈⊷
-╰━━━━━━━━━━━━┈⊷
+╭──⧼♛ *NEMESIS MD MINI* ♛⧽──≽
+│┃ ♛
+│┃ ♛ Total Commands : *${totalCommands}*
+│┃ ♛ Time           : ${time}
+│┃ ♛ Date           : ${date}
+│┃ ♛ Owner          : Ridz Coder 
+│┃ ♛ Platform       : nemesismini.zone.id
+╰────-----------─────≽
 ${menuText}
 `.trim();
 
         await conn.sendMessage(m.chat, {
-            image: { url: "https://files.catbox.moe/prkkzj.png" },
+            image: { url: "https://files.catbox.moe/sbgnhh.png" },
             caption,
             contextInfo: {
                 forwardingScore: 999,
                 isForwarded: true,
                 mentionedJid: [m.sender],
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363348739987203@newsletter",
-                    newsletterName: "𝘼𝙧𝙨𝙡𝙖𝙣-𝙈𝘿 𝙈𝙞𝙣𝙞 𝙑²",
+                    newsletterJid: "120363404529319592@newsletter",
+                    newsletterName: "Ridz Coder Uganda",
                     serverMessageId: 2,
                 },
             },
