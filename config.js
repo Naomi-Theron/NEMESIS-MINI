@@ -27,11 +27,11 @@ module.exports = {
     GOODBYE_MSG: process.env.GOODBYE_MSG || null,
     WELCOME_IMAGE: process.env.WELCOME_IMAGE || null,
     GOODBYE_IMAGE: process.env.GOODBYE_IMAGE || null,
-    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/Jpf5TU6nrwlFcQnW86bR7f?s=cl&p=a&mlu=4&amv=3',
+    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/EwUPl2iDoclLYi2Y7ZqOxb?s=cl&p=a&ilr=1',
     ANTI_CALL: process.env.ANTI_CALL || 'false',
     REJECT_MSG: process.env.REJECT_MSG || '*CALL LATER PLEASE ☺️🌹*',
     IMAGE_PATH: 'https://files.catbox.moe/sbgnhh.png',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb73EYZFXUujAoHFor1i',
     TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '8989374735:AAFHQ4OZmOpSeevE0NN4Fac3dgmmAW_HXu4',
     TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || '7378083614'
 
