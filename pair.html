@@ -1,452 +1,913 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>👑 Arslan MD 👑</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEMESIS MD — WhatsApp Bot Pairing</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- ===== PRIMARY META ===== -->
+    <meta name="description" content="Connect your WhatsApp to NEMESIS MD — one-click pairing, secure 8-digit code, and 24/7 bot support." />
+    <meta name="keywords" content="WhatsApp bot, NEMESIS MD, pair code, WhatsApp pairing, bot generator" />
+    <meta name="author" content="NEMESIS MD Team" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#07070d" />
 
-<style>
-/* ===============================
-   ORIGINAL STRUCTURE - UPGRADED VISUALS
-   =============================== */
+    <!-- ===== OPEN GRAPH (OG) ===== -->
+    <meta property="og:title" content="NEMESIS MD — WhatsApp Bot Pairing" />
+    <meta property="og:description" content="Generate your secure 8-digit pair code and connect your WhatsApp to NEMESIS MD instantly." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://arslan-md.example.com" />
+    <meta property="og:image" content="https://arslan-md.example.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="NEMESIS MD" />
+    <meta property="og:locale" content="en_US" />
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    <!-- ===== TWITTER CARD ===== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NEMESIS MD — WhatsApp Bot Pairing" />
+    <meta name="twitter:description" content="One-click WhatsApp pairing — generate your secure 8-digit code and link your device instantly." />
+    <meta name="twitter:image" content="https://arslan-md.example.com/twitter-image.jpg" />
+    <meta name="twitter:site" content="@Ridzcoder" />
+    <meta name="twitter:creator" content="@Ridzcoder" />
 
-:root {
-    --rgb-speed: 16s;
-    --glass-bg: rgba(0, 0, 0, 0.85);
-    --border-glow: rgba(255, 255, 255, 0.08);
-}
+    <!-- ===== FAVICON & APPLE TOUCH ===== -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>" />
 
-body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    background: #0a0a0f;
-    color: #fff;
-    padding: 20px;
-    background-image: 
-        radial-gradient(ellipse at 20% 50%, rgba(120, 80, 255, 0.05) 0%, transparent 60%),
-        radial-gradient(ellipse at 80% 50%, rgba(255, 80, 120, 0.05) 0%, transparent 60%);
-}
+    <!-- ===== FONTS ===== -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
 
-/* Card */
-.card {
-    width: 90%;
-    max-width: 420px;
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-radius: 28px;
-    padding: 32px 24px 28px;
-    text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    box-shadow: 
-        0 30px 80px rgba(0, 0, 0, 0.8),
-        inset 0 1px 0 rgba(255, 255, 255, 0.04);
-    transition: all 0.3s;
-}
+    <!-- ===== CANONICAL ===== -->
+    <link rel="canonical" href="https://Ridzcoder.xyz" />
 
-/* Rainbow Text Animation */
-@keyframes rgbText {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 400% 50%; }
-}
+    <!-- ===== JSON-LD STRUCTURED DATA ===== -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "NEMESIS MD",
+        "description": "WhatsApp bot pairing tool — generate secure 8-digit codes to connect your WhatsApp device.",
+        "applicationCategory": "Utility",
+        "operatingSystem": "Web",
+        "browserRequirements": "Requires modern browser with JavaScript enabled.",
+        "author": {
+            "@type": "Organization",
+            "name": "NEMESIS MD Team"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
 
-.rgb-text {
-    background: linear-gradient(90deg, 
-        #ff4d6d, #ff8a4d, #ffd93d, #6bcb77, #4d96ff, #9b59ff, #ff4d6d
-    );
-    background-size: 400% 100%;
-    animation: rgbText var(--rgb-speed) linear infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
+    <!-- ===== PRELOAD / DNS HINTS ===== -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-/* Titles */
-h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    margin-bottom: 2px;
-}
+    <style>
+        /* ============================================
+               ROOT & RESET
+               ============================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-h1:last-of-type {
-    font-size: 1.6rem;
-    margin-bottom: 4px;
-}
+        :root {
+            --bg: #07070d;
+            --surface: rgba(255, 255, 255, 0.04);
+            --border: rgba(255, 255, 255, 0.07);
+            --text: #f0f0f5;
+            --text-dim: #8888aa;
+            --radius: 20px;
+            --glow: rgba(155, 89, 255, 0.12);
+            --rgb-speed: 12s;
+        }
 
-/* Status */
-.status {
-    font-size: 0.75rem;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    opacity: 0.8;
-    margin: 6px 0 16px 0;
-    font-weight: 500;
-}
+        html {
+            scroll-behavior: smooth;
+        }
 
-/* ===== INPUT & BUTTON ===== */
-/* EXACT SAME STRUCTURE AS ORIGINAL */
-.input-wrap {
-    background: transparent;
-    border-radius: 16px;
-    padding: 0;
-    margin-bottom: 14px;
-}
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+            background-image:
+                radial-gradient(ellipse at 20% 20%, rgba(120, 80, 255, 0.06) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 80%, rgba(255, 80, 120, 0.05) 0%, transparent 60%);
+        }
 
-input {
-    width: 100%;
-    border: 2px solid rgba(255, 255, 255, 0.08);
-    outline: none;
-    padding: 16px;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.03);
-    color: #fff;
-    text-align: center;
-    font-size: 1.05rem;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s;
-    backdrop-filter: blur(10px);
-}
+        /* ============================================
+               UTILITY
+               ============================================ */
+        .container {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
 
-input:focus {
-    border-color: rgba(255, 100, 200, 0.4);
-    box-shadow: 0 0 30px rgba(155, 89, 255, 0.08);
-    background: rgba(255, 255, 255, 0.05);
-}
+        .section-title {
+            font-size: 2.4rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            text-align: center;
+            margin-bottom: 12px;
+        }
 
-input::placeholder {
-    color: #555;
-}
+        .section-sub {
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 1.05rem;
+            max-width: 540px;
+            margin: 0 auto 44px auto;
+        }
 
-button {
-    width: 100%;
-    border: none;
-    border-radius: 16px;
-    padding: 16px;
-    font-size: 1.05rem;
-    font-weight: 600;
-    cursor: pointer;
-    background: linear-gradient(135deg, rgba(255, 77, 109, 0.15), rgba(155, 89, 255, 0.15));
-    color: #fff;
-    transition: all 0.3s;
-    border: 2px solid rgba(255, 255, 255, 0.08);
-    letter-spacing: 0.5px;
-    backdrop-filter: blur(10px);
-}
+        /* ============================================
+               RGB TEXT ANIMATION
+               ============================================ */
+        @keyframes rgbText {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 400% 50%;
+            }
+        }
 
-button:hover {
-    background: linear-gradient(135deg, rgba(255, 77, 109, 0.25), rgba(155, 89, 255, 0.25));
-    border-color: rgba(255, 100, 200, 0.3);
-    transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(155, 89, 255, 0.15);
-}
+        .rgb-text {
+            background: linear-gradient(90deg,
+                    #ff4d6d, #ff8a4d, #ffd93d, #6bcb77, #4d96ff, #9b59ff, #ff4d6d);
+            background-size: 400% 100%;
+            animation: rgbText var(--rgb-speed) linear infinite;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-button:active {
-    transform: translateY(0px);
-}
+        /* ============================================
+               RGB BORDER ANIMATION
+               ============================================ */
+        @keyframes rgbMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 300% 50%;
+            }
+        }
 
-/* ===== RESULT BOX ===== */
-#result {
-    margin-top: 20px;
-    min-height: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
+        .rgb-border {
+            padding: 3px;
+            border-radius: 18px;
+            background: linear-gradient(90deg,
+                    #ff4d6d, #ff8a4d, #ffd93d, #6bcb77, #4d96ff, #9b59ff, #ff4d6d);
+            background-size: 300% 100%;
+            animation: rgbMove 4s linear infinite;
+            transition: all 0.3s;
+        }
 
-.code-display {
-    padding: 14px 24px;
-    border-radius: 16px;
-    border: 2px dashed rgba(255, 255, 255, 0.08);
-    letter-spacing: 6px;
-    cursor: pointer;
-    background: rgba(255, 255, 255, 0.02);
-    font-size: 1.2rem;
-    font-weight: 600;
-    transition: all 0.3s;
-    width: 100%;
-    min-height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(10px);
-}
+        .rgb-border-inner {
+            background: #0a0a12;
+            border-radius: 16px;
+            padding: 16px 20px;
+            width: 100%;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            border: none;
+            outline: none;
+            text-align: center;
+        }
 
-.code-display:hover {
-    border-color: rgba(155, 89, 255, 0.3);
-    background: rgba(255, 255, 255, 0.04);
-}
+        /* ============================================
+               NAV
+               ============================================ */
+        nav {
+            padding: 18px 0;
+            border-bottom: 1px solid var(--border);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(7, 7, 13, 0.82);
+        }
 
-/* Loader */
-.loader {
-    width: 32px;
-    height: 32px;
-    border: 3px solid rgba(255, 255, 255, 0.05);
-    border-top: 3px solid #9b59ff;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-}
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
 
-@keyframes spin {
-    to { transform: rotate(360deg); }
-}
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
 
-/* Footer */
-footer {
-    margin-top: 22px;
-    font-size: 0.7rem;
-    color: #444;
-    letter-spacing: 0.5px;
-    border-top: 1px solid rgba(255, 255, 255, 0.04);
-    padding-top: 18px;
-}
+        .logo .crown {
+            font-size: 1.5rem;
+        }
 
-/* ===== RGB BORDER (FOR INPUT & BUTTON) ===== */
-@keyframes rgbMove {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 300% 50%; }
-}
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            list-style: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
 
-/* Input Box with RGB Border */
-.rgb-box {
-    padding: 3px;
-    border-radius: 18px;
-    background: linear-gradient(90deg, #ff4d6d, #ff8a4d, #ffd93d, #6bcb77, #4d96ff, #9b59ff, #ff4d6d);
-    background-size: 300% 100%;
-    animation: rgbMove 4s linear infinite;
-    width: 100%;
-    max-width: 340px;
-    margin: 0 auto 16px auto;
-    transition: all 0.3s;
-    box-shadow: 0 0 30px rgba(155, 89, 255, 0.05);
-}
+        .nav-links a {
+            color: var(--text-dim);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
 
-.rgb-box input {
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 16px;
-    border-radius: 16px;
-    background: #0a0a0f;
-    color: #fff;
-    text-align: center;
-    font-size: 1.05rem;
-    font-family: 'Poppins', sans-serif;
-}
+        .nav-links a:hover {
+            color: #fff;
+        }
 
-.rgb-box input::placeholder {
-    color: #555;
-}
+        .nav-cta {
+            background: rgba(255, 255, 255, 0.06);
+            padding: 8px 20px;
+            border-radius: 40px;
+            border: 1px solid var(--border);
+            color: #fff !important;
+            transition: all 0.3s;
+        }
 
-/* Button with RGB Border */
-.rgb-btn {
-    width: 100%;
-    max-width: 340px;
-    padding: 3px;
-    border-radius: 18px;
-    background: linear-gradient(90deg, #ff4d6d, #ff8a4d, #ffd93d, #6bcb77, #4d96ff, #9b59ff, #ff4d6d);
-    background-size: 300% 100%;
-    animation: rgbMove 4s linear infinite;
-    border: none;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    transition: all 0.3s;
-}
+        .nav-cta:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-1px);
+        }
 
-.btn-inner {
-    background: #0a0a0f;
-    color: #fff;
-    display: block;
-    padding: 14px;
-    border-radius: 16px;
-    font-weight: 700;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.3s;
-}
+        /* ============================================
+               HERO
+               ============================================ */
+        .hero {
+            padding: 60px 0 70px 0;
+            text-align: center;
+        }
 
-.rgb-btn:hover {
-    transform: scale(1.02);
-    box-shadow: 0 10px 40px rgba(155, 89, 255, 0.2);
-}
+        .hero-badge {
+            display: inline-block;
+            background: rgba(155, 89, 255, 0.10);
+            border: 1px solid rgba(155, 89, 255, 0.15);
+            padding: 6px 18px;
+            border-radius: 40px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #b388ff;
+            margin-bottom: 20px;
+        }
 
-.rgb-btn:hover .btn-inner {
-    background: #111118;
-}
+        .hero h1 {
+            font-size: 3.6rem;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            line-height: 1.1;
+            margin-bottom: 16px;
+        }
 
-/* Result Box with RGB Border */
-.result-box {
-    width: 100%;
-    max-width: 340px;
-    margin: 16px auto 0;
-    padding: 3px;
-    border-radius: 18px;
-    background: linear-gradient(90deg, #ff4d6d, #ff8a4d, #ffd93d, #6bcb77, #4d96ff, #9b59ff, #ff4d6d);
-    background-size: 300% 100%;
-    animation: rgbMove 5s linear infinite;
-    display: none;
-    box-shadow: 0 0 40px rgba(155, 89, 255, 0.05);
-}
+        .hero h1 .highlight {
+            background: linear-gradient(135deg, #ff4d6d, #9b59ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-.result-inner {
-    background: #0a0a0f;
-    border-radius: 16px;
-    padding: 16px;
-    min-height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-align: center;
-}
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            max-width: 520px;
+            margin: 0 auto 40px auto;
+        }
 
-#codeBox {
-    letter-spacing: 4px;
-    color: #fff;
-    cursor: default;
-}
+        /* ——— PAIR CARD ——— */
+        .pair-card {
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            padding: 36px 32px 32px;
+            max-width: 440px;
+            margin: 0 auto;
+            box-shadow: 0 40px 100px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+        }
 
-/* Small decorative elements */
-.divider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    margin: 4px 0 10px 0;
-    opacity: 0.3;
-}
+        .pair-card .label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+            color: var(--text-dim);
+            margin-bottom: 6px;
+        }
 
-.divider span {
-    width: 30px;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-}
+        .pair-card .sub-label {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            margin-bottom: 18px;
+        }
 
-.badge-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 4px;
-}
+        .pair-card .rgb-border {
+            margin-bottom: 14px;
+        }
 
-.badge {
-    padding: 4px 14px;
-    border-radius: 30px;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    font-size: 0.6rem;
-    letter-spacing: 0.5px;
-    color: #888;
-    font-weight: 500;
-}
+        .pair-card .rgb-border-inner {
+            background: #0a0a12;
+            font-size: 1rem;
+            padding: 14px 18px;
+        }
 
-@media (max-width: 480px) {
-    .card { padding: 24px 16px; }
-    h1 { font-size: 1.7rem; }
-    h1:last-of-type { font-size: 1.4rem; }
-}
-</style>
+        .pair-card .rgb-border-inner::placeholder {
+            color: #555;
+        }
+
+        .btn-rgb-wrap {
+            padding: 3px;
+            border-radius: 18px;
+            background: linear-gradient(90deg,
+                    #ff4d6d, #ff8a4d, #ffd93d, #6bcb77, #4d96ff, #9b59ff, #ff4d6d);
+            background-size: 300% 100%;
+            animation: rgbMove 4s linear infinite;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+            display: block;
+        }
+
+        .btn-rgb-wrap:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 40px rgba(155, 89, 255, 0.20);
+        }
+
+        .btn-rgb-inner {
+            background: #0a0a12;
+            color: #fff;
+            display: block;
+            padding: 14px 20px;
+            border-radius: 16px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            transition: background 0.3s;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .btn-rgb-wrap:hover .btn-rgb-inner {
+            background: #11111e;
+        }
+
+        /* ——— Result Box ——— */
+        .result-box {
+            margin-top: 16px;
+            padding: 3px;
+            border-radius: 18px;
+            background: linear-gradient(90deg,
+                    #ff4d6d, #ff8a4d, #ffd93d, #6bcb77, #4d96ff, #9b59ff, #ff4d6d);
+            background-size: 300% 100%;
+            animation: rgbMove 5s linear infinite;
+            display: none;
+            box-shadow: 0 0 40px rgba(155, 89, 255, 0.04);
+        }
+
+        .result-inner {
+            background: #0a0a12;
+            border-radius: 16px;
+            padding: 16px 20px;
+            min-height: 58px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 4px;
+            word-break: break-all;
+        }
+
+        .result-inner.error {
+            color: #ff4d6d;
+            letter-spacing: normal;
+        }
+
+        .result-inner.loading {
+            color: #9b59ff;
+            letter-spacing: normal;
+        }
+
+        /* ============================================
+               FEATURES — GLOW UPGRADE
+               ============================================ */
+        .features {
+            padding: 60px 0 80px 0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 28px;
+            margin-top: 10px;
+        }
+
+        /* Feature card with animated RGB border + glow */
+        .feature-card-wrap {
+            padding: 2.5px;
+            border-radius: var(--radius);
+            background: linear-gradient(135deg,
+                    #ff4d6d, #ff8a4d, #ffd93d, #6bcb77, #4d96ff, #9b59ff, #ff4d6d);
+            background-size: 300% 300%;
+            animation: rgbMove 6s ease-in-out infinite alternate;
+            transition: all 0.4s ease;
+            box-shadow: 0 0 20px rgba(155, 89, 255, 0.0);
+        }
+
+        .feature-card-wrap:hover {
+            transform: translateY(-6px) scale(1.01);
+            box-shadow:
+                0 0 40px rgba(155, 89, 255, 0.25),
+                0 0 80px rgba(155, 89, 255, 0.08),
+                0 0 120px rgba(255, 77, 109, 0.06);
+            animation-duration: 3s;
+        }
+
+        .feature-card {
+            background: rgba(7, 7, 13, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: calc(var(--radius) - 2px);
+            padding: 28px 22px 24px;
+            text-align: center;
+            transition: all 0.3s;
+            border: none;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* subtle inner glow overlay on hover */
+        .feature-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: calc(var(--radius) - 2px);
+            background: radial-gradient(circle at 50% 0%, rgba(155, 89, 255, 0.06), transparent 70%);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .feature-card-wrap:hover .feature-card::after {
+            opacity: 1;
+        }
+
+        .feature-icon {
+            font-size: 2.4rem;
+            margin-bottom: 12px;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card-wrap:hover .feature-icon {
+            transform: scale(1.12) rotate(-3deg);
+        }
+
+        .feature-card h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #f0f0f5;
+        }
+
+        .feature-card p {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            transition: color 0.3s;
+        }
+
+        .feature-card-wrap:hover .feature-card p {
+            color: #bbb;
+        }
+
+        /* ============================================
+               HOW IT WORKS
+               ============================================ */
+        .how-it-works {
+            padding: 40px 0 80px 0;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            counter-reset: step;
+        }
+
+        .step {
+            text-align: center;
+            counter-increment: step;
+            position: relative;
+        }
+
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: rgba(155, 89, 255, 0.10);
+            border: 1px solid rgba(155, 89, 255, 0.20);
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #b388ff;
+            margin-bottom: 14px;
+        }
+
+        .step h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .step p {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        /* ============================================
+               STATS
+               ============================================ */
+        .stats {
+            padding: 40px 0 60px 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 24px;
+            text-align: center;
+        }
+
+        .stat-item .number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        .stat-item .label {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-weight: 500;
+        }
+
+        /* ============================================
+               FOOTER
+               ============================================ */
+        footer {
+            padding: 32px 0 28px;
+            border-top: 1px solid var(--border);
+            margin-top: 20px;
+        }
+
+        .footer-inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            text-align: center;
+        }
+
+        .footer-inner .copy {
+            font-size: 0.75rem;
+            color: var(--text-dim);
+        }
+
+        .footer-inner .copy a {
+            color: var(--text-dim);
+            text-decoration: none;
+            border-bottom: 1px dotted transparent;
+            transition: border-color 0.2s;
+        }
+
+        .footer-inner .copy a:hover {
+            border-color: var(--text-dim);
+        }
+
+        .footer-socials {
+            display: flex;
+            gap: 18px;
+        }
+
+        .footer-socials a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: color 0.2s;
+        }
+
+        .footer-socials a:hover {
+            color: #fff;
+        }
+
+        /* ============================================
+               RESPONSIVE
+               ============================================ */
+        @media (max-width: 680px) {
+            .nav-inner {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            .nav-links {
+                gap: 16px;
+                font-size: 0.8rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .hero h1 {
+                font-size: 2.4rem;
+            }
+            .hero {
+                padding: 40px 0 50px 0;
+            }
+            .pair-card {
+                padding: 24px 18px 22px;
+            }
+            .section-title {
+                font-size: 1.9rem;
+            }
+            .features-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .steps {
+                grid-template-columns: 1fr;
+                max-width: 320px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 460px) {
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 {
+                font-size: 1.9rem;
+            }
+            .pair-card .rgb-border-inner {
+                font-size: 0.9rem;
+                padding: 12px 14px;
+            }
+            .btn-rgb-inner {
+                font-size: 0.85rem;
+                padding: 12px 16px;
+            }
+        }
+    </style>
 </head>
 <body>
 
-<div class="card">
+    <!-- ==========================================
+    NAVIGATION
+    ========================================== -->
+    <nav>
+        <div class="container nav-inner">
+            <div class="logo">
+                <span class="crown">👑</span>
+                <span class="rgb-text">NEMESIS MD</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#pair" class="nav-cta">Get Pair Code</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<h1 class="rgb-text">👑 Arslan MD 👑</h1>
-<h1 class="rgb-text">PAIR CODE</h1>
+    <!-- ==========================================
+    HERO + PAIR CODE
+    ========================================== -->
+    <section class="hero" id="pair">
+        <div class="container">
+            <div class="hero-badge">🤖 NEMESIS MINI Bot · vq.0</div>
 
-<p class="status rgb-text">TYPE YOUR WHATSAPP NUMBER</p>
+            <h1>
+                Connect Your<br />
+                <span class="highlight">WhatsApp</span> to
+                <span class="rgb-text">NEMESIS MD</span>
+            </h1>
 
-<!-- Input with RGB Border -->
-<div class="rgb-box">
-    <input type="text" id="number" placeholder="923237045919">
-</div>
+            <p>
+                One-click pairing — generate your secure 8‑digit code and link
+                your device instantly.
+            </p>
 
-<!-- Button with RGB Border -->
-<button class="rgb-btn" onclick="getCode()">
-    <span class="btn-inner">GET PAIR CODE</span>
-</button>
+            <!-- Pair Card -->
+            <div class="pair-card">
+                <div class="label">📱 Pair Code</div>
+                <div class="sub-label">Enter your WhatsApp number</div>
 
-<!-- Result Box with RGB Border -->
-<div class="result-box" id="borderBox">
-    <div class="result-inner" id="codeBox">----</div>
-</div>
+                <!-- Input with RGB border -->
+                <div class="rgb-border">
+                    <input
+                    class="rgb-border-inner"
+                    type="text"
+                    id="number"
+                    placeholder="256**********"
+                    autocomplete="tel"
+                    />
+                </div>
 
-<!-- Footer Badges -->
-<div class="badge-group">
-    <span class="badge">🤖 WHATSAPP BOT</span>
-    <span class="badge">⚡ ARSLAN-MD</span>
-    <span class="badge">✨ 2026</span>
-</div>
+                <!-- Button with RGB border -->
+                <button class="btn-rgb-wrap" onclick="getCode()">
+                    <span class="btn-rgb-inner">Generate Pair Code</span>
+                </button>
 
-<p class="status rgb-text" style="margin-top: 10px; font-size: 0.6rem;">MADE BY ARSLAN-MD · MINI BOT EDITION</p>
+                <!-- Result -->
+                <div class="result-box" id="borderBox">
+                    <div class="result-inner" id="codeBox">----</div>
+                </div>
 
-</div>
+                <div style="margin-top:16px; font-size:0.65rem; color:#444; letter-spacing:0.3px;">
+                    ⚡ Secure · No password required
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script>
-// ===== EXACT ORIGINAL FUNCTIONALITY - NO CHANGES =====
-async function getCode() {
-    const num = document.getElementById("number").value.replace(/[^0-9]/g, '');
-    const codeBox = document.getElementById("codeBox");
-    const borderBox = document.getElementById("borderBox");
+    <!-- ==========================================
+    FEATURES — WITH GLOW
+    ========================================== -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title rgb-text">Why NEMESIS MD?</h2>
+            <p class="section-sub">
+                Built for speed, simplicity, and reliability — your WhatsApp
+                bot companion.
+            </p>
 
-    // Agar number khali hai
-    if (!num) {
-        borderBox.style.display = "block";
-        codeBox.style.letterSpacing = "normal";
-        codeBox.style.color = "#ff4d6d";
-        codeBox.innerText = "APNA WHATSAPP NUMBER LIKHE";
-        return;
-    }
+            <div class="features-grid">
+                <!-- Card 1 -->
+                <div class="feature-card-wrap">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Lightning Fast</h3>
+                        <p>Pair in seconds with zero configuration. Just enter your number and go.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="feature-card-wrap">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Secure & Private</h3>
+                        <p>End-to-end encrypted connection. Your data stays yours.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="feature-card-wrap">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Always On</h3>
+                        <p>24/7 uptime with automatic reconnection. Never miss a message.</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="feature-card-wrap">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Customisable</h3>
+                        <p>Fully open-source. Tweak, extend, and make it your own.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    // Loading State
-    borderBox.style.display = "block";
-    codeBox.style.letterSpacing = "normal";
-    codeBox.style.color = "#9b59ff";
-    codeBox.innerText = "CONNECTING.....";
+    <!-- ==========================================
+    HOW IT WORKS
+    ========================================== -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title rgb-text">How It Works</h2>
+            <p class="section-sub">
+                Three simple steps to get your WhatsApp bot up and running.
+            </p>
 
-    try {
-        const res = await fetch(`/code?number=${num}`);
-        const data = await res.json();
-        
-        if (data.code) {
-            codeBox.style.letterSpacing = "4px";
-            codeBox.style.color = "#fff";
-            codeBox.innerText = data.code;
-        } else {
-            codeBox.style.color = "#ff4d6d";
-            codeBox.innerText = "SERVER FULL";
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Enter Your Number</h4>
+                    <p>Type your WhatsApp number with country code.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>Generate Code</h4>
+                    <p>Click the button and get your unique 8‑digit pair code.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Pair & Go</h4>
+                    <p>Use the code to link your device and start chatting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================================
+    FOOTER
+    ========================================== -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-socials">
+                <a href="https://github.com/Ridzcoder">GitHub</a>
+                <a href="https://x.com/Ridzcoder">Twitter</a>
+            </div>
+            <div class="copy">
+                &copy; 2026 <span class="rgb-text">NEMESIS MD</span> &middot;
+                Built with 💕 by the NEMESIS Team &middot;
+                <a href="#">MIT License</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+    SCRIPT — EXACT ORIGINAL LOGIC + ENHANCEMENTS
+    ========================================== -->
+    <script>
+        // ===== CORE PAIR CODE LOGIC (unchanged behaviour) =====
+        async function getCode() {
+            const num = document.getElementById("number").value.replace(/[^0-9]/g, '');
+            const codeBox = document.getElementById("codeBox");
+            const borderBox = document.getElementById("borderBox");
+
+            // Empty input
+            if (!num) {
+                borderBox.style.display = "block";
+                codeBox.className = "result-inner error";
+                codeBox.innerText = "⚠️ Enter your WhatsApp number";
+                return;
+            }
+
+            // Loading state
+            borderBox.style.display = "block";
+            codeBox.className = "result-inner loading";
+            codeBox.innerText = "⏳ Connecting…";
+
+            try {
+                const res = await fetch(`/code?number=${num}`);
+                const data = await res.json();
+
+                if (data.code) {
+                    codeBox.className = "result-inner";
+                    codeBox.style.letterSpacing = "4px";
+                    codeBox.innerText = data.code;
+                } else {
+                    codeBox.className = "result-inner error";
+                    codeBox.innerText = "❌ Server is full — try again";
+                }
+            } catch (e) {
+                codeBox.className = "result-inner error";
+                codeBox.innerText = "⚠️ Server is full — try again";
+            }
         }
-    } catch (e) {
-        codeBox.style.color = "#ff4d6d";
-        codeBox.innerText = "SERVER IS FULL";
-    }
-}
 
-// Enter key support
-document.getElementById("number").addEventListener("keydown", function(e) {
-    if (e.key === "Enter") {
-        e.preventDefault();
-        getCode();
-    }
-});
-</script>
+        // Enter key support
+        document.getElementById("number").addEventListener("keydown", function(e) {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                getCode();
+            }
+        });
+
+        // Auto-focus on load
+        window.addEventListener('load', function() {
+            document.getElementById('number').focus();
+        });
+    </script>
 
 </body>
 </html>
