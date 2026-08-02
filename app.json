@@ -1,0 +1,18 @@
+{
+  "name": "NEMESIS-MD-MINI",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://files.catbox.moe/prkkzj.png",
+  "repository": "https://github.com/Ridzcoder",
+  "keywords": ["@ridzcoder"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": " ʙʀᴏᴜɢʜᴛ ᴛᴏ ʏᴏᴜ ʙʏ ᴋᴇᴠɪɴ ᴛᴇᴄʜ,ʀɪᴅᴢ ᴄᴏᴅᴇʀ & ᴜʀ ᴛʜᴇʀᴏɴ🪀",
+      "required": false 
+    }
+  }
+}
