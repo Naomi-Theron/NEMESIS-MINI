@@ -38,7 +38,7 @@ cmd({
 
     await conn.sendMessage(from, {
       image: { url: apiUrl },
-      caption: "🌸 *Random X Girl*\n\n© Arslan-MD"
+      caption: "🌸 *Random X Girl*\n\n© ʀɪᴅᴢ ᴄᴏᴅᴇʀ x ᴋᴇᴠɪɴ ᴛᴇᴄʜ x ᴛʜᴇʀᴏɴ"
     }, {
       quoted: fakevCard
     });
