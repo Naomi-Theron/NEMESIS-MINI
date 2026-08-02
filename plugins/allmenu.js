@@ -35,10 +35,10 @@ cmd({
 ╭──⧼♛ *NEMESIS MD MINI* ♛⧽──≽
 │┃ ♛
 │┃ ♛ Total Commands : *${totalCommands}*
-│┃ ♛ Time           : ${time}
-│┃ ♛ Date           : ${date}
+│┃ ♛ Time    : ${time}
+│┃ ♛ Date  : ${date}
 │┃ ♛ Owner          : Ridz Coder 
-│┃ ♛ Platform       : nemesismini.zone.id
+│┃ ♛ Platform       : nemesis-mini.zone.id
 ╰────-----------─────≽
 ${menuText}
 `.trim();
