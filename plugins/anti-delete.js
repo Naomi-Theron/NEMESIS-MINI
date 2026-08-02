@@ -1,4 +1,4 @@
-const { cmd } = require("../ridzcoder");
+const { cmd } = require('../ridzcoder');
 const { setAntideleteStatus, getAntideleteStatus } = require('../data/Antidelete');
 
 cmd({
@@ -9,7 +9,7 @@ cmd({
     react: "🛡️"
 },
 async(conn, mek, m, { args, isOwner, reply, from }) => {
-    if (!isOwner) return reply("*YEH COMMAND SIRF MERE LIE HAI 😎*");
+    if (!isOwner) return reply("*THIS COMMAND IS ONLY FOR RIDZ CODER 😎*");
     const mode = args[0]?.toLowerCase();
 
     if (mode === 'on' || mode === 'enable') {
