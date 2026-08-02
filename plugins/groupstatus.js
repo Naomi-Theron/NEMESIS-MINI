@@ -20,13 +20,14 @@ async (conn, mek, m, { body, reply, pushname }) => {
                 "status@broadcast",
                 {
                     text:
-`╭━━〔 ᴀʀꜱʟᴀɴ-X-ᴍᴅ 〕━━⬣
-┃ 👤 User : ${pushname}
-┃ ⏰ Time : ${new Date().toLocaleString()}
-┃
-┃ 💬 Message:
-┃ ${caption}
-╰━━━━━━━━━━━━━━━━⬣`
+`
+╭──⧼♛ NEMESIS MD♛⧽──≽
+┃│┃ ♛ 👤 User : ${pushname}
+┃│┃ ♛ ⏰ Time : ${new Date().toLocaleString()}
+┃│┃ ♛
+┃│┃ ♛ 💬 Message:
+┃│┃ ♛ ${caption}
+╰────Rɪᴅᴢ Cᴏᴅᴇʀ❦─────≽`
                 }
             );
 
@@ -50,10 +51,12 @@ async (conn, mek, m, { body, reply, pushname }) => {
                 {
                     image: media,
                     caption:
-`📸 ᴀʀꜱʟᴀɴ-X-ᴍᴅ
-
-👤 Posted By: ${pushname}
-🕒 ${new Date().toLocaleString()}
+`
+╭──⧼♛📸 NEMESIS MD ♛⧽──≽
+│┃ ♛
+│┃ ♛👤 Posted By: ${pushname}
+│┃ ♛🕒 ${new Date().toLocaleString()}
+╰────Rɪᴅᴢ Cᴏᴅᴇʀ❦─────≽
 
 ${caption || "No Caption"}`
                 }
@@ -70,10 +73,12 @@ ${caption || "No Caption"}`
                 {
                     video: media,
                     caption:
-`🎥 ᴀʀꜱʟᴀɴ-X-ᴍᴅ
-
-👤 Posted By: ${pushname}
-🕒 ${new Date().toLocaleString()}
+`
+╭──⧼♛🎥 NEMESIS-MD ♛⧽──≽
+│┃ ♛
+│┃ ♛👤 Posted By: ${pushname}
+│┃ ♛🕒 ${new Date().toLocaleString()}
+╰────Rɪᴅᴢ Cᴏᴅᴇʀ❦─────≽
 
 ${caption || "No Caption"}`
                 }
@@ -116,7 +121,7 @@ ${caption || "No Caption"}`
         console.log("GROUPSTATUS ERROR:", err);
 
         return reply(
-`❌ ARSLAN-X-MD STATUS ERROR
+`❌ NEMESIS-MD STATUS ERROR
 
 ${err.message}`
         );
