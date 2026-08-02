@@ -38,10 +38,10 @@ function xBox(data) {
     return `
 ‎*╭──⧼♛NEMESIS X DOWNLOADER ♛⧽──≽*
 │┃ ♛
-│┃ ♛ 📌 ᴛɪᴛʟᴇ:* ${data.title}
-│┃ ♛ ⏱ ᴅᴜʀᴀᴛɪᴏɴ:* ${data.duration || "N/A"}
-│┃ ♛ 👁️ ᴠɪᴇᴡs:* ${data.views || "N/A"}
-│┃ ♛ 🥵 ᴏɴʟʏ:* 🔞.... 
+│┃ ♛ 📌 *ᴛɪᴛʟᴇ:* ${data.title}
+│┃ ♛ ⏱ *ᴅᴜʀᴀᴛɪᴏɴ:* ${data.duration || "N/A"}
+│┃ ♛ 👁️ *ᴠɪᴇᴡs:* ${data.views || "N/A"}
+│┃ ♛ 🥵 *ᴏɴʟʏ:* 🔞.... 
 *╰━━━━━━━━━━━━━━━━━━⊷*`;
 }
 
