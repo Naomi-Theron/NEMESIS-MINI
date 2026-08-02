@@ -11,7 +11,7 @@ cmd({
     filename: __filename
 },
 async (conn, mek, m, { from, args, isCreator, reply }) => {
-    if (!isCreator) return reply("*YEH COMMAND SIRF MERE LIE HAI 😎*");
+    if (!isCreator) return reply("*This  Command is For Ridz Coder 😔 only😎*");
 
     const status = args[0]?.toLowerCase();
     if (status === "on") {
