@@ -32,7 +32,7 @@ module.exports = {
     REJECT_MSG: process.env.REJECT_MSG || '*CALL LATER PLEASE ☺️🌹*',
     IMAGE_PATH: 'https://files.catbox.moe/sbgnhh.png',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306',
-    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '7214172448:AAHGqSgaw-zGVPZWvl8msDOVDhln-9kExas',
-    TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || '+237678687593'
+    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '8989374735:AAFHQ4OZmOpSeevE0NN4Fac3dgmmAW_HXu4',
+    TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || '7378083614'
 
 };
